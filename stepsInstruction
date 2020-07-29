@@ -1,0 +1,40 @@
+1. node version 12x
+2. npm ver 6x
+3. npm install
+4. npm start
+5. all secure files should be in gitignore
+6. CREATE TABLE `aayush_users` (
+  `id` int(100) NOT NULL,
+  `full_name` varchar(50) NOT NULL,
+  `username` varchar(400) DEFAULT NULL,
+  `lastname` varchar(300) DEFAULT NULL,
+  `password` varchar(400) NOT NULL,
+  `email` varchar(400) NOT NULL,
+  `age` varchar(20) DEFAULT NULL,
+  `address` text DEFAULT NULL,
+  `state` varchar(400) DEFAULT NULL,
+  `country` varchar(400) DEFAULT NULL,
+  `pincode` varchar(400) DEFAULT NULL,
+  `phoneno` varchar(400) DEFAULT NULL,
+  `childhood` varchar(400) DEFAULT NULL,
+  `interest` varchar(400) DEFAULT NULL,
+  `designation` varchar(400) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `about_you` text DEFAULT NULL,
+  `date` datetime NOT NULL DEFAULT current_timestamp(),
+  `register_date` varchar(400) DEFAULT NULL,
+  `ip` varchar(400) DEFAULT NULL,
+  `status` int(11) DEFAULT NULL,
+  `alert_noti` int(1) DEFAULT NULL,
+  `profile_img` varchar(50) DEFAULT NULL,
+  `mobile_verified` varchar(1) NOT NULL DEFAULT '0',
+  `user_active` int(1) NOT NULL DEFAULT 0,
+  `mobile_otp` int(6) NOT NULL,
+  `resetPasswordExpires` timestamp NOT NULL DEFAULT current_timestamp(),
+  `resetPasswordToken` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+7. node seq.js
+8. model files should go with keyswords like timestamp and primary key
+9. GitIgnore 
+10. Async Parraral use must
