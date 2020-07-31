@@ -38,3 +38,4 @@
 8. model files should go with keyswords like timestamp and primary key
 9. GitIgnore 
 10. Async Parraral use must
+11. git checkout -b development
